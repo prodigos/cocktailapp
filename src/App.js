@@ -1,14 +1,13 @@
+import React from "react";
 import "./App.css";
-import NavBar from '../../cocktailsapp/./src/Components/NavBar';
-import Sidebar from "./Components/Sidebar";
+import NavBar from "../../cocktailsapp/./src/Components/NavBar";
+import ByIngredient from "./Components/ByIngredient";
 
 function App() {
   return (
     <div className="App">
-
-    <NavBar/>
-    <Sidebar/>
-      
+      <NavBar />
+      <ByIngredient/>
     </div>
   );
 }
